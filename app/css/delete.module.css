@@ -1,0 +1,102 @@
+.card {
+    left: 706px;
+    width: 509px;
+    height: 225px;
+    /* UI Properties */
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 17px;
+    opacity: 1;
+}
+
+@media screen and (max-width: 640px) {
+    .card {
+        width: 90%;
+        /* กำหนดให้การ์ดใช้ความกว้างเต็ม */
+        height: auto;
+        /* ความสูงจะปรับอัตโนมัติ */
+        left: 0;
+        /* ไม่ต้องเลื่อนจากขอบ */
+        border-radius: 10px;
+        /* ปรับมุมให้โค้งเล็กลง */
+    }
+}
+
+.title {
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 28px/34px var(--unnamed-font-family-roboto);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-1a1a1a);
+    text-align: center;
+    font: normal normal bold 28px/34px Roboto;
+    letter-spacing: 0px;
+    color: #1A1A1A;
+    opacity: 1;
+}
+
+.p {
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-22) var(--unnamed-font-family-roboto);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-000000);
+    text-align: center;
+    font: normal normal normal 18px/22px Roboto;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.btn_delete {
+    width: 220px;
+    height: 60px;
+    width: 100%;
+    /* UI Properties */
+    background: var(--unnamed-color-fb2c36) 0% 0% no-repeat padding-box;
+    background: #FB2C36 0% 0% no-repeat padding-box;
+    border-radius: 7px;
+    opacity: 1;
+}
+
+.text_delete {
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-22) var(--unnamed-font-family-roboto);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-ffffff);
+    text-align: center;
+    font: normal normal normal 18px/22px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.btn_cancel {
+    width: 220px;
+    height: 60px;
+    width: 100%;
+    /* UI Properties */
+    border: 1.5px solid var(--unnamed-color-c7c5c5);
+    border: 2px solid #C7C5C5;
+    border-radius: 7px;
+    opacity: 1;
+}
+
+.text_cancel {
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-22) var(--unnamed-font-family-roboto);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-000000);
+    text-align: center;
+    font: normal normal normal 18px/22px Roboto;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.close {
+    top: 453px;
+    left: 1170px;
+    width: 20px;
+    height: 20px;
+    opacity: 1;
+}

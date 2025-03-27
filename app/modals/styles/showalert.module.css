@@ -1,0 +1,26 @@
+.myPopup {
+    width: 350px;
+    height: 250px;
+    /* UI Properties */
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 17px;
+    opacity: 1;
+}
+
+/* .myTitle {
+    font-size: 24px;
+    color: #333;
+  } */
+
+.myContent {
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-29) var(--unnamed-font-family-roboto);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-000000);
+    text-align: center;
+    font: normal normal normal 24px/29px Roboto;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}

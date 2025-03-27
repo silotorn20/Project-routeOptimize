@@ -1,0 +1,101 @@
+.card {
+    /* UI Properties */
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 17px;
+    opacity: 1;
+    width: 100%;
+    top: 303px;
+    left: 703px;
+    width: 515px;
+    height: 474px;
+}
+
+.title {
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 28px/37px var(--unnamed-font-family-roboto);
+    color: var(--unnamed-color-1a1a1a);
+    text-align: center;
+    font: normal normal bold 28px/37px Roboto;
+    letter-spacing: 0.84px;
+    color: #1A1A1A;
+    opacity: 1;
+}
+
+.p {
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-21) var(--unnamed-font-family-roboto);
+    color: var(--unnamed-color-1a1a1a);
+    text-align: center;
+    font: normal normal normal 16px/21px Roboto;
+    letter-spacing: 0.45px;
+    color: #1A1A1A;
+    opacity: 1;
+    margin-top: 5px;
+}
+
+.text_email {
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-24) var(--unnamed-font-family-roboto);
+    letter-spacing: var(--unnamed-character-spacing-0-59);
+    color: var(--unnamed-color-1a1a1a);
+    text-align: left;
+    font: normal normal normal 18px/24px Roboto;
+    letter-spacing: 0.59px;
+    color: #1A1A1A;
+    opacity: 1;
+}
+
+.input_email {
+    width: 400px;
+    height: 40px;
+    /* UI Properties */
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    border: 1px solid var(--unnamed-color-707070);
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 7px;
+    opacity: 1;
+    outline: none;
+    padding: 3%;
+    width: 100%;
+}
+
+.input_email:focus {
+    border: 2px solid #007BFF;
+}
+
+.input_placeholder_email {
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-22) var(--unnamed-font-family-roboto);
+    letter-spacing: var(--unnamed-character-spacing-0-59);
+    color: var(--unnamed-color-b3b3b3);
+    text-align: left;
+    font: normal normal normal 18px/22px Roboto;
+    letter-spacing: 0.59px;
+    /* color: #B3B3B3; */
+    padding-top: 2%;
+    opacity: 1;
+}
+
+.btn {
+    /* Layout Properties */
+    height: 50px;
+    /* UI Properties */
+    background: var(--unnamed-color-007bff) 0% 0% no-repeat padding-box;
+    background: #007BFF 0% 0% no-repeat padding-box;
+    border-radius: 7px;
+    opacity: 1;
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-24) var(--unnamed-font-family-roboto);
+    letter-spacing: var(--unnamed-character-spacing-0-59);
+    color: var(--unnamed-color-ffffff);
+    text-align: center;
+    font: normal normal normal 18px/24px Roboto;
+    letter-spacing: 0.59px;
+    color: #FFFFFF;
+    opacity: 1;
+    width: 100%;
+    margin-top: 10;
+}
+

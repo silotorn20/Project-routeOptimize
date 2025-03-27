@@ -1,0 +1,209 @@
+.title {
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 28px/34px var(--unnamed-font-family-roboto);
+    color: var(--unnamed-color-1a1a1a);
+    text-align: center;
+    font: normal normal bold 28px/34px Roboto;
+    letter-spacing: 0.92px;
+    color: #1A1A1A;
+    opacity: 1;
+}
+
+
+.p {
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-21) var(--unnamed-font-family-roboto);
+    color: var(--unnamed-color-1a1a1a);
+    text-align: center;
+    font: normal normal normal 16px/21px Roboto;
+    letter-spacing: -0.53px;
+    color: #1A1A1A;
+    opacity: 1;
+
+}
+
+.text_email {
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-22) var(--unnamed-font-family-roboto);
+    letter-spacing: var(--unnamed-character-spacing-0-59);
+    color: var(--unnamed-color-1a1a1a);
+    text-align: left;
+    font: normal normal normal 18px/22px Roboto;
+    letter-spacing: 0.59px;
+    color: #1A1A1A;
+    padding-top: 8%;
+    opacity: 1;
+}
+
+.input_email {
+    width: 400px;
+    height: 40px;
+    /* UI Properties */
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    border: 1px solid var(--unnamed-color-707070);
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 7px;
+    opacity: 1;
+    outline: none;
+    padding: 3%;
+    width: 100%;
+}
+
+.input_email:focus {
+    border: 2px solid #007BFF;
+}
+
+.input_placeholder_email {
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-22) var(--unnamed-font-family-roboto);
+    letter-spacing: var(--unnamed-character-spacing-0-59);
+    color: var(--unnamed-color-b3b3b3);
+    text-align: left;
+    font: normal normal normal 18px/22px Roboto;
+    letter-spacing: 0.59px;
+    /* color: #B3B3B3; */
+    padding-top: 2%;
+    opacity: 1;
+}
+
+.text_password {
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-24) var(--unnamed-font-family-roboto);
+    letter-spacing: var(--unnamed-character-spacing-0-59);
+    color: var(--unnamed-color-1a1a1a);
+    text-align: left;
+    font: normal normal normal 18px/24px Roboto;
+    letter-spacing: 0.59px;
+    color: #1A1A1A;
+    padding-top: 5%;
+    opacity: 1;
+}
+
+.input_password {
+    width: 400px;
+    height: 40px;
+    /* UI Properties */
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    border: 1px solid var(--unnamed-color-707070);
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 7px;
+    opacity: 1;
+    outline: none;
+    padding: 3%;
+    width: 100%;
+}
+
+.input_password:focus {
+    border: 2px solid #007BFF;
+}
+
+.input_placeholder_password {
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-24) var(--unnamed-font-family-roboto);
+    letter-spacing: var(--unnamed-character-spacing-0-59);
+    color: var(--unnamed-color-b3b3b3);
+    text-align: left;
+    font: normal normal normal 18px/24px Roboto;
+    letter-spacing: 0.59px;
+    /* color: #B3B3B3; */
+    padding-top: 2%;
+    opacity: 1;
+}
+
+.hr_line span {
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-20)/var(--unnamed-line-spacing-26) var(--unnamed-font-family-roboto);
+    text-align: center;
+    font: normal normal normal 20px/26px Roboto;
+    letter-spacing: 0.6px;
+    color: #B3B3B3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+}
+
+.hr_line ::before,
+.hr_line ::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    border: 1.5px solid #B3B3B3;
+    margin: 0 5px;
+}
+
+.btn_google {
+    /* UI Properties */
+    width: 400px;
+    height: 50px;
+    border: 1.5px solid var(--unnamed-color-007bff);
+    background: transparent 0% 0% no-repeat padding-box;
+    border: 1.5px solid #007BFF;
+    border-radius: 7px;
+    opacity: 1;
+    width: 100%;
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-22) var(--unnamed-font-family-roboto);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-007bff);
+    text-align: center;
+    font: normal normal normal 18px/22px Roboto;
+    letter-spacing: 0px;
+    color: #007BFF;
+    margin-top: 10%;
+}
+
+.logo_google {
+    display: flex;
+    opacity: 1;
+    align-items: center;
+    justify-content: center;
+    gap: 10
+}
+
+.text_account {
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-19) var(--unnamed-font-family-roboto);
+    color: var(--unnamed-color-1a1a1a);
+    text-align: center;
+    font: normal normal normal 14px/19px Roboto;
+    letter-spacing: 0.42px;
+    color: #1A1A1A;
+    padding-top: 7%;
+    opacity: 1;
+}
+
+.textaccount {
+    /* UI Properties */
+    text-decoration: var(--unnamed-decoration-underline);
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-19) var(--unnamed-font-family-roboto);
+    color: var(--unnamed-color-007bff);
+    text-align: center;
+    text-decoration: underline;
+    font: normal normal normal 14px/19px Roboto;
+    letter-spacing: 0.42px;
+    color: #007BFF;
+    padding-left: 2%;
+    opacity: 1;
+}
+
+.btn_login {
+    /* UI Properties */
+    width: 400px;
+    height: 50px;
+    background: var(--unnamed-color-007bff) 0% 0% no-repeat padding-box;
+    background: #007BFF 0% 0% no-repeat padding-box;
+    border-radius: 7px;
+    opacity: 1;
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-24) var(--unnamed-font-family-roboto);
+    letter-spacing: var(--unnamed-character-spacing-0-59);
+    color: var(--unnamed-color-ffffff);
+    text-align: center;
+    font: normal normal normal 18px/24px Roboto;
+    letter-spacing: 0.59px;
+    color: #FFFFFF;
+    margin-top: 8%;
+    width: 100%;
+}

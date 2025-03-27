@@ -1,0 +1,140 @@
+.border {
+    /* Layout Properties */
+    top: 170px;
+    left: 53px;
+    height: 361px;
+    border: 1.5px solid var(--unnamed-color-707070);
+    border: 2px solid #707070;
+    opacity: 1;
+}
+
+.btn_add {
+    /* Layout Properties */
+    width: 230px;
+    height: 60px;
+    /* UI Properties */
+    background: var(--unnamed-color-007bff) 0% 0% no-repeat padding-box;
+    background: #007BFF 0% 0% no-repeat padding-box;
+    border-radius: 7px;
+    opacity: 1;
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-22) var(--unnamed-font-family-roboto);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-ffffff);
+    text-align: center;
+    font: normal normal normal 18px/22px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.btn_cancel {
+    /* Layout Properties */
+    width: 230px;
+    height: 60px;
+    /* UI Properties */
+    border: 1.5px solid var(--unnamed-color-007bff);
+    border: 2px solid #007BFF;
+    border-radius: 7px;
+    opacity: 1;
+    /* UI Properties */
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-22) var(--unnamed-font-family-roboto);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-007bff);
+    text-align: center;
+    font: normal normal normal 18px/22px Roboto;
+    letter-spacing: 0px;
+    color: #007BFF;
+}
+
+.card {
+    /* Layout Properties */
+    top: 155px;
+    left: 626px;
+    width: 669px;
+    height: 770px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 15px;
+    opacity: 1;
+}
+
+.title {
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 30px/39px var(--unnamed-font-family-roboto);
+    color: var(--unnamed-color-1a1a1a);
+    text-align: left;
+    font: normal normal bold 30px/39px Roboto;
+    letter-spacing: 2.64px;
+    color: #1A1A1A;
+    opacity: 1;
+}
+
+.p {
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-19) var(--unnamed-font-family-roboto);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-1a1a1a);
+    text-align: left;
+    font: normal normal normal 16px/19px Roboto;
+    letter-spacing: 0px;
+    color: #1A1A1A;
+    opacity: 1;
+}
+
+.input_file {
+    /* Layout Properties */
+    width: 485px;
+    height: 400px;
+    /* UI Properties */
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    border: 1px dashed var(--unnamed-color-707070);
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 2px dashed #707070;
+    border-radius: 9px;
+    opacity: 1;
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card_input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    top: 450px;
+    left: 901px;
+    width: 119px;
+    height: 119px;
+    /* UI Properties */
+    opacity: 1;
+}
+
+.text_file {
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-20)/var(--unnamed-line-spacing-24) var(--unnamed-font-family-roboto);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-707070);
+    text-align: center;
+    font: normal normal normal 20px/24px Roboto;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
+
+.text_filesup {
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/30px var(--unnamed-font-family-roboto);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-707070);
+    text-align: center;
+    font: normal normal normal 16px/30px Roboto;
+    letter-spacing: 0px;
+    color: #707070;
+    margin-top: 5%;
+    opacity: 1;
+}
